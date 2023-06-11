@@ -50,7 +50,7 @@ under certain conditions (GNU General Public License).
 
 # Input: text file containing a list of arcs
 # Output: network given as a dict associating to each vertex the table of its children
-def open_network(filename):
+def open_network(filename: str) -> networkx.DiGraph:
     """
     :rtype : networkx.DiGraph
     """
